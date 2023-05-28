@@ -68,14 +68,6 @@ html, body {
     transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
 }
 
-/* Small devices (phones, up to 576px) */
-@media (max-width: 570px) {
-    #circle {
-        width: 20px;
-        height:20px;
-    }
 
-    .frame span {
-        font-size: 30px;
-    }
-}
+
+   
