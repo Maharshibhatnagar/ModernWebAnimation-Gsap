@@ -69,7 +69,7 @@ html, body {
 }
 
 /* Small devices (phones, up to 576px) */
-@media (max-width: 570px) and (min-width: 220px) {
+@media (max-width: 570px) {
     #circle {
         width: 20px;
         height:20px;
