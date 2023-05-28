@@ -67,3 +67,15 @@ html, body {
     background-color: #d73b77;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
 }
+
+/* Small devices (phones, up to 576px) */
+@media (max-width: 576px) {
+    #circle {
+        width: 10px;
+        height:10px;
+    }
+
+    .frame span {
+        font-size: 14px;
+    }
+}
