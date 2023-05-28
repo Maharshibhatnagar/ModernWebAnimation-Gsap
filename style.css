@@ -1,0 +1,69 @@
+@font-face {
+    font-family:myFont1;
+    src: url("Crayonified\ Demo.ttf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: myFont1;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+
+
+.frame span{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    height: 5vw;
+    /* background-color: red; */
+    text-align: center;
+    /* display: block; */
+    font-style: 3vw;
+    padding: 0, 5vw;
+    font-weight: 700;
+    font-size: 30px;
+    /* transform: translateY(-5vw); */
+}
+
+.frame{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    height: 5vw;
+    /* background-color: yellow; */
+}
+
+#circle {
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    transform:translate(-50%, -50%);
+    border-radius: 50%;
+    /* border: 3px solid dodgerblue; */
+    top: 0;
+    left: 0;
+    width: 2vw;
+    height: 2vw;
+    /* background-color: rgb(72, 18, 137); */
+    background-color: #d73b77;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
