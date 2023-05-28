@@ -69,14 +69,13 @@ html, body {
 }
 
 /* Small devices (phones, up to 576px) */
-@media (max-width: 576px) {
+@media (max-width: 570px) and (min-width: 220px) {
     #circle {
-        width: 10px;
-        height:10px;
+        width: 20px;
+        height:20px;
     }
 
     .frame span {
-/*         font-size: 14px; */
-         font-size: 5px;
+        font-size: 10px;
     }
 }
